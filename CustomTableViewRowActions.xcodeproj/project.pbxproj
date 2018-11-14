@@ -15,6 +15,8 @@
 		0A668238219BCD3D009CDF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A668237219BCD3D009CDF76 /* main.m */; };
 		0A668242219BCD3E009CDF76 /* CustomTableViewRowActionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A668241219BCD3E009CDF76 /* CustomTableViewRowActionsTests.m */; };
 		0A66824D219BCD3E009CDF76 /* CustomTableViewRowActionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A66824C219BCD3E009CDF76 /* CustomTableViewRowActionsUITests.m */; };
+		0A66825E219BCD88009CDF76 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A66825A219BCD87009CDF76 /* DataModel.m */; };
+		0A66825F219BCD88009CDF76 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A66825C219BCD87009CDF76 /* DataTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0A668248219BCD3E009CDF76 /* CustomTableViewRowActionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewRowActionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A66824C219BCD3E009CDF76 /* CustomTableViewRowActionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewRowActionsUITests.m; sourceTree = "<group>"; };
 		0A66824E219BCD3E009CDF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A66825A219BCD87009CDF76 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		0A66825B219BCD87009CDF76 /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		0A66825C219BCD87009CDF76 /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		0A66825D219BCD87009CDF76 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				0A668229219BCD3C009CDF76 /* AppDelegate.m */,
 				0A66822B219BCD3C009CDF76 /* ViewController.h */,
 				0A66822C219BCD3C009CDF76 /* ViewController.m */,
+				0A66825D219BCD87009CDF76 /* DataModel.h */,
+				0A66825A219BCD87009CDF76 /* DataModel.m */,
+				0A66825B219BCD87009CDF76 /* DataTableViewCell.h */,
+				0A66825C219BCD87009CDF76 /* DataTableViewCell.m */,
 				0A66822E219BCD3C009CDF76 /* Main.storyboard */,
 				0A668231219BCD3D009CDF76 /* Assets.xcassets */,
 				0A668233219BCD3D009CDF76 /* LaunchScreen.storyboard */,
@@ -263,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A66822D219BCD3C009CDF76 /* ViewController.m in Sources */,
+				0A66825E219BCD88009CDF76 /* DataModel.m in Sources */,
 				0A668238219BCD3D009CDF76 /* main.m in Sources */,
+				0A66825F219BCD88009CDF76 /* DataTableViewCell.m in Sources */,
 				0A66822A219BCD3C009CDF76 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T5M6ML8L2;
 				INFOPLIST_FILE = CustomTableViewRowActions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T5M6ML8L2;
 				INFOPLIST_FILE = CustomTableViewRowActions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
